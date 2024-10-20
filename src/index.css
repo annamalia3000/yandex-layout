@@ -1,0 +1,100 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 10px;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: #000;
+  align-items: flex-end;
+  margin-bottom: 15px;
+  padding: 0 20px;
+  gap: 10px;
+}
+
+.header-content {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+}
+
+.news-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 200px;
+  border: 2px solid blue;
+  margin-bottom: 5px;
+}
+
+.currency-rates {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: 40px;
+  border: 2px solid blue;
+  margin-left: 20px;
+}
+
+.header-advertisemen {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 160px;
+  border: 2px solid blue;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+
+  color: #000;
+}
+
+.search-bar {
+  width: 1100px;
+  height: 40px;
+  border: 2px solid blue;
+  margin-bottom: 5px;
+  align-self: flex-start;
+}
+
+.main-advertisement {
+  width: 1000px;
+  height: 80px;
+  border: 2px solid blue;
+  margin-bottom: 5px;
+  object-fit: cover;
+}
+
+.article-container {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.article-column {
+  width: 400px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+}
